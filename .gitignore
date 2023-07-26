@@ -1,0 +1,8 @@
+.idea/
+.fleet/
+.cache/
+.ignore/
+cmake-build-debug/
+build/
+
+compile_commands.json

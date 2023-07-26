@@ -1,0 +1,10 @@
+def x = 3
+def y = 2
+
+def print_sum
+  = (x, y)
+  => writeln(add(x, y))
+
+def main
+  = ()
+  => print_sum(6, 8)

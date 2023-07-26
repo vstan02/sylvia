@@ -1,0 +1,8 @@
+program ::= const*;
+const ::= 'def' ID '=' value;
+
+value ::= base_value | array_value | call_value | func_value;
+base_value ::= NULL | NUMBER | BOOL | STRING;
+array_value ::= '[' (value (',' value)*)? ']';
+call_value ::= ID ('(' (value (',' value)*)? ')')?;
+func_value ::= '(' (ID (',' ID)*)? ')' '=>' value;
